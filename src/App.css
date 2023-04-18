@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400&family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400&family=Rubik+Pixels&family=Sedgwick+Ave+Display&display=swap");
 .Poppins {
   font-family: "Poppins", sans-serif;
- 
 }
-.Rubik{
-   font-family: "Rubik Pixels", cursive;
-   color: rgb(14, 219, 25);
+.Rubik {
+  font-family: "Rubik Pixels", cursive;
+  color: rgb(14, 219, 25);
 }
 
-.Sedgwick{
-  font-family: 'Sedgwick Ave Display', cursive;
+.Sedgwick {
+  font-family: "Sedgwick Ave Display", cursive;
 }
 .d-flex a {
   padding: 0 12px;
@@ -55,7 +54,7 @@
   font-weight: 900;
   background-color: rgb(253, 238, 225);
 }
-.switcher ul{
+.switcher ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -65,9 +64,16 @@
   font-size: x-large;
   margin-top: 20px;
 }
-.switcher ul li::after{
+.switcher ul li::after {
   content: "/";
   color: rgb(255, 174, 104);
   margin-left: 30px;
   font-size: 3rem;
+}
+.blog {
+  box-sizing: content-box;
+  width: 100%;
+}
+.w-20 {
+  overflow-x: hidden;
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import Blog from "./Blog";
 import Giphy from "../Assets/gifs/giphy.gif";
 import { NavLink } from "react-router-dom";
 const Home = () => {
@@ -54,6 +55,9 @@ const Home = () => {
           <li>Brand News</li>
           <li>Esports News</li>
         </ul>
+      </div>
+      <div>
+        <Blog />
       </div>
     </>
   );
