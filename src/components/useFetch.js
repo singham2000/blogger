@@ -1,25 +1,21 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react'
 
-// Remember to start the name of your custom hook with "use"
-function useFetch(initializer, componentName) {
-  const [data, setData] = useState(null);
-
-  // Increases the value of counter by 1
-  function dataGrab() {
-    fetch()
+const useFetch = (url) => {
+  const [data, setData] = useState();
+  const controller = new AbortController;
+  const signal = controller.signal;
+  const fetcher = async () => {
+    await fetch(url, { signal })
+      .then(response => response.json())
+      .then(json => setData(json))
   }
 
- useEffect(() => {
-   
- 
-   return () => {
-     
-   }
- }, [])
- 
+  useEffect(() => {
+    fetcher()
+  }, [])
 
-  // Calls the useEffect hook if the counter updates
-  return dataGrab;
+
+  return { data }
 }
 
-export default useFetch;
+export default useFetch

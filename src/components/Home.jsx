@@ -15,7 +15,7 @@ const Home = () => {
           <div className="pt-5 px-5">
             <div className="d-flex">
               <div className="search-bar">
-                <i class="fa-solid fa-magnifying-glass"></i>
+                <i className="fa-solid fa-magnifying-glass"></i>
                 <input
                   type="text"
                   placeholder="Search..."
@@ -29,7 +29,7 @@ const Home = () => {
           </div>
         </div>
         <div className="col-3 mt-5">
-          <img src={Giphy} alt="" srcset="" />
+          <img src={Giphy} alt="Dancing pens" />
         </div>
       </div>
       <div className="switcher Poppins">

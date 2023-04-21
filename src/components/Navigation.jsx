@@ -4,8 +4,8 @@ import { NavLink } from "react-router-dom";
 const Navigation = () => {
   return (
     <div className="App">
-      <nav class="navbar bg-body-tertiary">
-        <div class="container">
+      <nav className="navbar bg-body-tertiary">
+        <div className="container">
           <div
             className={
               "navbar-brand fw-bolder Poppins fs-3 text-decoration-none"

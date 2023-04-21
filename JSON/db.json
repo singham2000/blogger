@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "author": "Surya Pratap",
+      "title":"AI The new age",
+      "catagorie": "Popular",
+      "description": " AI has many benefits that can help businesses and individuals alike. Here are some of them Smart decision-making: <br/> It can help businesses make better decisions by providing insights into data that would be difficult for humans to analyze. <br/> Automation: It can automate repetitive tasks, freeing up time for more important work. Medical progression: AI can help doctors diagnose diseases more accurately and quickly than ever before. <br/>    Improved customer experience: AI can help businesses provide better customer service by analyzing customer data and providing personalized recommendations.Research and data analysis: AI can help researchers analyze large amounts of data quickly and accurately. "
+    },
+    {
+      "id": 2,
+      "author": "Surya Pratap",
+      "title":"AI The new age",
+      "catagorie": "Popular",
+      "description": " AI has many benefits that can help businesses and individuals alike. Here are some of them Smart decision-making: <br/> It can help businesses make better decisions by providing insights into data that would be difficult for humans to analyze. <br/> Automation: It can automate repetitive tasks, freeing up time for more important work. Medical progression: AI can help doctors diagnose diseases more accurately and quickly than ever before. <br/>    Improved customer experience: AI can help businesses provide better customer service by analyzing customer data and providing personalized recommendations.Research and data analysis: AI can help researchers analyze large amounts of data quickly and accurately. "
+    }
+  ]
+}
