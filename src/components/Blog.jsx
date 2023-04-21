@@ -1,12 +1,11 @@
 import React from "react";
 import useFetch from "./useFetch";
-import { render } from "@testing-library/react";
 const Blog = () => {
   const { data } = useFetch("http://localhost:3001/posts");
   console.log(data);
   return (
     <>
-      {data?.map((blog,index) => (
+      {data?.map((blog, index) => (
         <div className="row blog Poppins mb-5">
           <div className="col-2 fs-1 text-end circle" >
             {++index}
