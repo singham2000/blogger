@@ -3,16 +3,26 @@
     {
       "id": 1,
       "author": "Surya Pratap",
-      "title":"AI The new age",
-      "catagorie": "Popular",
-      "description": " AI has many benefits that can help businesses and individuals alike. Here are some of them Smart decision-making: <br/> It can help businesses make better decisions by providing insights into data that would be difficult for humans to analyze. <br/> Automation: It can automate repetitive tasks, freeing up time for more important work. Medical progression: AI can help doctors diagnose diseases more accurately and quickly than ever before. <br/>    Improved customer experience: AI can help businesses provide better customer service by analyzing customer data and providing personalized recommendations.Research and data analysis: AI can help researchers analyze large amounts of data quickly and accurately. "
+      "title": "AI The new age",
+      "catagorie": "Trending",
+      "description": " AI has many benefits that can help businesses and individuals alike. Here are some of them Smart decision-making: <br/> It can help businesses make better decisions by providing insights into data that would be difficult for humans to analyze. <br/> Automation: It can automate repetitive tasks, freeing up time for more important work. Medical progression: AI can help doctors diagnose diseases more accurately and quickly than ever before. <br/>    Improved customer experience: AI can help businesses provide better customer service by analyzing customer data and providing personalized recommendations.Research and data analysis: AI can help researchers analyze large amounts of data quickly and accurately. ",
+      "glimpse": " AI has revolutioned the world with its limitless capabilities for betterment for the world, modern world needs AI engines for human welfare and re-center human kind to focus on more important funtions. "
     },
     {
       "id": 2,
+      "author": "Lori Wizdo, VP, Principal Analyst",
+      "title": "CMOs Can Unlock New Value With Lifecycle Revenue Marketing",
+      "catagorie": "Featured",
+      "description": " Revenue performance has become a standard measure for B2B marketers. But 20 years ago — around the time when B2B marketing automation was first introduced — the idea was radical. Adopting the practice required cultural change, significant reengineering of marketing and sales processes, rethinking the relationship between marketing and sales, and a large investment in technology. Practitioners have demonstrated that the benefits are worth the investment: Marketing’s contribution to pipeline and revenue increases, end-to-end conversion ratios improve, and return on marketing investment increases. Claiming a stake in revenue production has greatly improved the status of the marketing organization — and the CMO — in B2B companies. But, without swift change, some of that hard-won strategic standing is vulnerable to attenuation.",
+      "glimpse": " Marketing Mindsets Must Evolve For LRM is a breakthrough business capability that helps B2B marketers acquire and expand customers, and achieve overall revenue growth goals. LRM standardizes, automates, and scales these practices to engage customers across the lifecycle — from attraction to advocacy. But it also exposes siloed marketing, introduces process rigor that frustrates creative marketing minds, exposes skills gaps, and challenges the traditional dynamic between sales and marketing. As you lead your organization through this transformation, you’ll need to lead your team through several mindset shifts"
+    },
+    {
+      "id": 3,
       "author": "Surya Pratap",
-      "title":"AI The new age",
-      "catagorie": "Popular",
-      "description": " AI has many benefits that can help businesses and individuals alike. Here are some of them Smart decision-making: <br/> It can help businesses make better decisions by providing insights into data that would be difficult for humans to analyze. <br/> Automation: It can automate repetitive tasks, freeing up time for more important work. Medical progression: AI can help doctors diagnose diseases more accurately and quickly than ever before. <br/>    Improved customer experience: AI can help businesses provide better customer service by analyzing customer data and providing personalized recommendations.Research and data analysis: AI can help researchers analyze large amounts of data quickly and accurately. "
+      "title": "AI The new age",
+      "catagorie": "Web3",
+      "description": " AI has many benefits that can help businesses and individuals alike. Here are some of them Smart decision-making: <br/> It can help businesses make better decisions by providing insights into data that would be difficult for humans to analyze. <br/> Automation: It can automate repetitive tasks, freeing up time for more important work. Medical progression: AI can help doctors diagnose diseases more accurately and quickly than ever before. <br/>    Improved customer experience: AI can help businesses provide better customer service by analyzing customer data and providing personalized recommendations.Research and data analysis: AI can help researchers analyze large amounts of data quickly and accurately. ",
+      "glimpse": " AI has revolutioned the world with its limitless capabilities for betterment for the world, modern world needs AI engines for human welfare and re-center human kind to focus on more important funtions. "
     }
   ]
 }

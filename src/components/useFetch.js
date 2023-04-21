@@ -1,21 +1,27 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 
 const useFetch = (url) => {
   const [data, setData] = useState();
-  const controller = new AbortController;
-  const signal = controller.signal;
-  const fetcher = async () => {
-    await fetch(url, { signal })
+  const [loading, setLoading] = useState(true);
+
+
+  const fetcher = useCallback(async () => {
+    await fetch(url)
       .then(response => response.json())
-      .then(json => setData(json))
-  }
+      .then(json => {
+        setData(json);
+        setLoading(false);
+      })
+  }, [url]);
 
   useEffect(() => {
-    fetcher()
-  }, [])
+    fetcher();
+
+  }, [fetcher])
 
 
-  return { data }
+
+  return [data, loading];
 }
 
 export default useFetch

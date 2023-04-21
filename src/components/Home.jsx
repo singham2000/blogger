@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import Blog from "./Blog";
 import Giphy from "../Assets/gifs/giphy.gif";
-import { NavLink } from "react-router-dom";
 const Home = () => {
+  const [catagorie, setCatagorie] = useState("trending");
   return (
     <>
       <div className="row container" style={{ margin: "0 100px" }}>
@@ -35,29 +35,18 @@ const Home = () => {
       <div className="switcher Poppins">
         <span>Catagorie</span>
         <ul>
-          <NavLink
-            to={"/d"}
-            className="nav-link"
-            style={({ isActive }) => {
-              return {
-                color: isActive ? "green" : "grey",
-              };
-            }}
-          >
-            <li>All blogs</li>
-          </NavLink>
-
-          <li>Trending</li>
-          <li>PC gaming</li>
-          <li>Mobile Gaming</li>
-          <li>Web3</li>
-          <li>Featured</li>
-          <li>Brand News</li>
-          <li>Esports News</li>
+          <li onClick={() => setCatagorie('all')}>All blogs</li>
+          <li onClick={() => setCatagorie('trending')}>Trending</li>
+          <li onClick={() => setCatagorie('pc-gamming')}>PC gaming</li>
+          <li onClick={() => setCatagorie('mobile-gamming')}>Mobile Gaming</li>
+          <li onClick={() => setCatagorie('web3')}>Web3</li>
+          <li onClick={() => setCatagorie('featured')}>Featured</li>
+          <li onClick={() => setCatagorie('brand-news')}>Brand News</li>
+          <li onClick={() => setCatagorie('esports-news')}>Esports News</li>
         </ul>
       </div>
       <div>
-        <Blog />
+        <Blog catagorie={catagorie} />
       </div>
     </>
   );

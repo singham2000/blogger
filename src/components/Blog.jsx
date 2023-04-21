@@ -1,18 +1,35 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import useFetch from "./useFetch";
-const Blog = () => {
-  const { data } = useFetch("http://localhost:3001/posts");
-  console.log(data);
+
+const Blog = (props) => {
+  const [Fdata, setFdata] = useState();
+  const [data, loading] = useFetch("http://localhost:3001/posts");
+  console.log(props.catagorie)
+
+
+  useEffect(() => {
+
+    if (props.catagorie.toLowerCase() === ("all").toLowerCase()) {
+      console.log("data");
+      setFdata(data);
+    } else {
+      const get = data?.filter((bdata) => bdata.catagorie.toLowerCase() === props.catagorie.toLowerCase())
+      setFdata(get);
+    }
+
+  }, [loading, props,data])
+
+
   return (
     <>
-      {data?.map((blog, index) => (
-        <div className="row blog Poppins mb-5">
+      {!loading? Fdata?.map((blog, index) => (
+        <div className="row blog Poppins mb-5" key={index}>
           <div className="col-2 fs-1 text-end circle" >
             {++index}
           </div>
           <div className="col-6">
             <div className="d-flex justify-content-between">
-              <h1 className="Poppins">{blog.title}</h1>
+              <h1 className="Poppins border-bottom border-5">{blog.title}</h1>
               <div className="d-flex justify-content-around w-20">
                 <span className="mx-2">Autor: {blog.author}</span>
                 <span className="mx-2">Catagorie: {blog.catagorie}</span>
@@ -24,18 +41,15 @@ const Blog = () => {
           </div>
           <div className="col-3">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
-              doloribus minima iusto magni voluptatum omnis mollitia corrupti
-              tempore minus, vero nostrum ducimus eius eaque recusandae. Optio
-              maiores minus, ratione ipsa accusamus illo quaerat dolorum ab
-              explicabo corporis! Nisi facilis aut fuga ipsam repudiandae quia
-              mollitia nulla asperiores rem praesentium nesciunt, veniam a, sint
-              aspernatur cumque placeat. Officia, excepturi! Ab, ipsum.
+              {blog.glimpse}
             </p>
           </div>
           <div className="col-1" />
         </div>
-      ))}
+      )):
+      <div className="text-center Poppins">
+        Loading...
+      </div>}
 
     </>
   );
