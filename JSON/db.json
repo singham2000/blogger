@@ -6,7 +6,8 @@
       "title": "AI The new age",
       "catagorie": "Trending",
       "description": " AI has many benefits that can help businesses and individuals alike. Here are some of them Smart decision-making: <br/> It can help businesses make better decisions by providing insights into data that would be difficult for humans to analyze. <br/> Automation: It can automate repetitive tasks, freeing up time for more important work. Medical progression: AI can help doctors diagnose diseases more accurately and quickly than ever before. <br/>    Improved customer experience: AI can help businesses provide better customer service by analyzing customer data and providing personalized recommendations.Research and data analysis: AI can help researchers analyze large amounts of data quickly and accurately. ",
-      "glimpse": " AI has revolutioned the world with its limitless capabilities for betterment for the world, modern world needs AI engines for human welfare and re-center human kind to focus on more important funtions. "
+      "glimpse": " AI has revolutioned the world with its limitless capabilities for betterment for the world, modern world needs AI engines for human welfare and re-center human kind to focus on more important funtions. ",
+      "image":"https://th.bing.com/th/id/OIP.f8epz5SETofIerFPUud5UQHaE8?pid=ImgDet&rs=1"
     },
     {
       "id": 2,
@@ -14,15 +15,17 @@
       "title": "CMOs Can Unlock New Value With Lifecycle Revenue Marketing",
       "catagorie": "Featured",
       "description": " Revenue performance has become a standard measure for B2B marketers. But 20 years ago — around the time when B2B marketing automation was first introduced — the idea was radical. Adopting the practice required cultural change, significant reengineering of marketing and sales processes, rethinking the relationship between marketing and sales, and a large investment in technology. Practitioners have demonstrated that the benefits are worth the investment: Marketing’s contribution to pipeline and revenue increases, end-to-end conversion ratios improve, and return on marketing investment increases. Claiming a stake in revenue production has greatly improved the status of the marketing organization — and the CMO — in B2B companies. But, without swift change, some of that hard-won strategic standing is vulnerable to attenuation.",
-      "glimpse": " Marketing Mindsets Must Evolve For LRM is a breakthrough business capability that helps B2B marketers acquire and expand customers, and achieve overall revenue growth goals. LRM standardizes, automates, and scales these practices to engage customers across the lifecycle — from attraction to advocacy. But it also exposes siloed marketing, introduces process rigor that frustrates creative marketing minds, exposes skills gaps, and challenges the traditional dynamic between sales and marketing. As you lead your organization through this transformation, you’ll need to lead your team through several mindset shifts"
+      "glimpse": " Marketing Mindsets Must Evolve For LRM is a breakthrough business capability that helps B2B marketers acquire and expand customers, and achieve overall revenue growth goals. LRM standardizes, automates, and scales these practices to engage customers across the lifecycle — from attraction to advocacy. But it also exposes siloed marketing, introduces process rigor that frustrates creative marketing minds, exposes skills gaps, and challenges the traditional dynamic between sales and marketing. As you lead your organization through this transformation, you’ll need to lead your team through several mindset shifts",
+      "image":"https://th.bing.com/th/id/OIP.7pbL6xCcyB-ygLoH7FRRJgHaHc?pid=ImgDet&rs=1"
     },
     {
       "id": 3,
-      "author": "Surya Pratap",
-      "title": "AI The new age",
+      "author": "W3 LABS",
+      "title": "The Web3 Labs Blog",
       "catagorie": "Web3",
-      "description": " AI has many benefits that can help businesses and individuals alike. Here are some of them Smart decision-making: <br/> It can help businesses make better decisions by providing insights into data that would be difficult for humans to analyze. <br/> Automation: It can automate repetitive tasks, freeing up time for more important work. Medical progression: AI can help doctors diagnose diseases more accurately and quickly than ever before. <br/>    Improved customer experience: AI can help businesses provide better customer service by analyzing customer data and providing personalized recommendations.Research and data analysis: AI can help researchers analyze large amounts of data quickly and accurately. ",
-      "glimpse": " AI has revolutioned the world with its limitless capabilities for betterment for the world, modern world needs AI engines for human welfare and re-center human kind to focus on more important funtions. "
+      "description": "Scaling to New Heights: Unraveling the Progress and Potential of Ethereum's Layer 2 Networks  The “scaling wars” of Ethereum have been heating up this past few months, and we're now at the point where over half the major protocols have launched their zero-knowledge EVM (zkEVM) offers. zkEVMs herald the next era of scalability for Ethereum by utilising zero-knowledge proof technology in order to provide greater transaction throughputs (~2000 tps is suggested) than is possible using other layer 2 technologies, such as optimistic rollups.      This throughput is achieved by reducing the amount of data that needs to be stored on the layer one network — the Ethereum mainnet which holds proof of the transactions contained in the rollup. This is as opposed to optimistic rollups which require all transaction data to be published on the layer one network. The greater throughput isn't the only benefit of zkEVMs, they also provide a lower transaction cost, faster finality and proof of the underlying computation taking place.",
+      "glimpse": "As is clear from the five companies listed above, the ecosystem is still very young, without clear leaders emerging yet from the zkEVM camps.      Referring to some of the total value locked (TVL) metrics provided by l2beat, optimistic rollups Arbitrum One and Optimism account for around $8bn of the TVL on layer two networks, with the zkEVMs being in the low hundreds or tens of million in terms of TVL.",
+      "image":"https://th.bing.com/th/id/OIP.FdIpS0-dDFqQN4HSJ-7FjAHaEx?pid=ImgDet&rs=1"
     }
   ]
 }

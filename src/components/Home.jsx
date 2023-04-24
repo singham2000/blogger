@@ -2,34 +2,34 @@ import React, { useState } from "react";
 import Blog from "./Blog";
 import Giphy from "../Assets/gifs/giphy.gif";
 const Home = () => {
-  const [catagorie, setCatagorie] = useState("trending");
+  const [catagorie, setCatagorie] = useState("all");
   return (
     <>
-      <div className="row container" style={{ margin: "0 100px" }}>
-        <div className="col-9">
+      <div className="row container mx-auto">
+        <div className="col-sm-12 col-lg-9">
           <div className="p-5">
-            <h1 style={{ fontSize: "7em" }} className="Sedgwick">
+            <h1 className="fs-500 Sedgwick">
               Thoughts & ideas around the things that actually matter..
             </h1>
           </div>
           <div className="pt-5 px-5">
-            <div className="d-flex">
-              <div className="search-bar">
+            <div className="d-flex container " style={{width:"100vw"}}>
+              <div className="search-bar input-group-text">
                 <i className="fa-solid fa-magnifying-glass"></i>
                 <input
                   type="text"
                   placeholder="Search..."
-                  className="search-input"
+                  className="search-input form-group"
                 />
               </div>
-              <button className="explore">
+              <button className="explore btn">
                 <span>Explore</span>
               </button>
             </div>
           </div>
         </div>
-        <div className="col-3 mt-5">
-          <img src={Giphy} alt="Dancing pens" />
+        <div className="col-lg-3 col-md-12 mt-5 imager">
+          <img src={Giphy} alt="Dancing pens"/>
         </div>
       </div>
       <div className="switcher Poppins">

@@ -17,17 +17,17 @@ const Blog = (props) => {
       setFdata(get);
     }
 
-  }, [loading, props,data])
+  }, [loading, props, data])
 
 
   return (
     <>
-      {!loading? Fdata?.map((blog, index) => (
+      {!loading ? Fdata?.map((blog, index) => (
         <div className="row blog Poppins mb-5" key={index}>
-          <div className="col-2 fs-1 text-end circle" >
+          <div className="col-sm-1 col-lg-2 fs-1 text-end circle" >
             {++index}
           </div>
-          <div className="col-6">
+          <div className="col-sm-11 col-lg-6">
             <div className="d-flex justify-content-between">
               <h1 className="Poppins border-bottom border-5">{blog.title}</h1>
               <div className="d-flex justify-content-around w-20">
@@ -39,17 +39,18 @@ const Blog = (props) => {
               {blog.description}
             </p>
           </div>
-          <div className="col-3">
+          <div className="col-sm-2 col-lg-3">
             <p>
               {blog.glimpse}
             </p>
+            <img src={blog.image} alt={blog.title} />
           </div>
-          <div className="col-1" />
+          <div className="col-lg-1" />
         </div>
-      )):
-      <div className="text-center Poppins">
-        Loading...
-      </div>}
+      )) :
+        <div className="text-center Poppins">
+          Loading...
+        </div>}
 
     </>
   );
